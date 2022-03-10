@@ -1,0 +1,57 @@
+h1 {
+	color: #e69396;
+}
+
+h4 {
+	color: #ef738e;
+}
+
+h3,h4 {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4 {
+	line-height: 1;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f7e7e8;
+	line-height: 1.5;
+	background-image: url(https://images.unsplash.com/photo-1582794543462-0d7922e50cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+	min-width: 100%;
+	min-height: 100%;
+}
+
+div {
+  background-color: white;
+  text-align: center;
+  padding: 24px;
+  width: 70%;
+  margin: 16px auto;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px black;
+}
+
+ul {
+	text-align: left;
+}
+
+#profilepicture {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	border-radius: 50%;
+}
+
+#pagelinkedin {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+  	background-color: #ef738e;
+  	padding: 8px 16px;
+  	border-radius: 6px;
+  	font-weight: bolder;
+  	border: 1px solid;
+  	transition:  1s;
+}
